@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2><em>Tic-Tac-Toe</em></h2>
+    <h4><em>RULES FOR TIC-TAC-TOE</em></h4>
+    <ul>
+        <li>The game is played on a grid that's 3 squares by 3 squares.</li>        
+        <li>You are X , your friend (or the computer in this case) is O . Players take turns putting their marks in empty squares.</li>
+        <li> The first player to get 3 of her marks in a row (up, down, across, or diagonally) is the winner.</li>
+        <li> When all 9 squares are full, the game is over. If no player has 3 marks in a row, the game ends in a tie.</li>
+        <br>
+    </ul>
+    <div class="game-board" id="gameBoard">
+        <div class="cell" data-index="0"></div>
+        <div class="cell" data-index="1"></div>
+        <div class="cell" data-index="2"></div>
+        <div class="cell" data-index="3"></div>
+        <div class="cell" data-index="4"></div>
+        <div class="cell" data-index="5"></div>
+        <div class="cell" data-index="6"></div>
+        <div class="cell" data-index="7"></div>
+        <div class="cell" data-index="8"></div>
+    </div>
+    <div id="message"></div>
+    <button id="restartBtn">Restart Game</button>
+    <script src="script.js"></script>
+</body>
+</html>
